@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,8 +20,8 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
-            <a href="#" class="navbar-brand">
-                <h4>Mahjoub Taha Archive</h4>
+            <a href="./" class="navbar-brand">
+                <h4 class="text-danger text-uppercase">Mahjoub Taha Archive</h4>
                 <!--play with it to make it more formal-->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -35,127 +36,143 @@
                 </ul>
             </div>
         </div>
+        <hr class="mb-4 text-danger">
     </nav>
-    </nav>
-    <!--mubark's & my boi-->
-    <section class="p-5" style="min-height: 80vh;">
-        <div class="container d-lg-flex p-5">
-            <!--mubark bio-->
-            <div class="container d-md-flex justify-content-between align-items-center">
-                <img src="#" class="img-fluid rounded mx-md-5 my-4 w-75" alt="mubark">
-                <div>
-                    <h4>
-                        mubark abdallah
-                    </h4>
-                    <p class="lead my-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa minima rem accusantium
-                        exercitationem! Consectetur, laboriosam. Illo temporibus veritatis ratione atque quod
-                        accusantium quasi provident consequuntur! Iste et iusto similique.
-                    </p>
-                </div>
-            </div>
-            <!--my bio-->
-            <div class="container d-md-flex justify-content-between align-items-center">
-                <img src="./images/about/me.jpg" class="img-fluid rounded mx-md-5 my-4 w-75" alt="miqdad">
-                <div>
-                    <h4>
-                        miqdad greeb allah
-                    </h4>
-                    <p class="lead my-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa minima rem accusantium
-                        exercitationem! Consectetur, laboriosam. Illo temporibus veritatis ratione atque quod
-                        accusantium quasi provident consequuntur! Iste et iusto similique.
-                    </p>
-                </div>
-            </div>
 
+    <!--mubark's & my boi-->
+    <section class=" py-5 bg-dark text-light">
+        <div class="container py-5" style="min-height: 80vh;">
+
+            <h2 class="text-danger text-center font-weight-bold"> Know More About Us!</h2>
+
+            <div class="row py-5">
+
+                <div class="col-md-6 d-flex justify-content-center">
+
+                    <div class="card m-2 cb text-center bg-light text-dark">
+
+                        <img src="./images/about/one.jpg" alt="Mubark img" class="card-img-top rounded">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title mb-4 text-danger">Mubark Abdallah</h5>
+
+                            <p class="card-text font-weight-bold">
+                                Some quick example text to build on the
+                                card title and make up the bulk of the
+                                card's content.
+                                <br>
+                            <ul class="list-unstyled list-linline pt-3">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-envelope"></i></a>
+                                </li>
+
+                            </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="card m-2 cb text-center bg-light text-dark">
+
+                        <img src="./images/about/two.jpg" alt="Miqdad img" class="card-img-top rounded">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title mb-4 text-danger">Miqdad Greeb Allah</h5>
+
+                            <p class="card-text font-weight-bold">
+                                A senior physics student at the department of physics,
+                                university of khartoum. Love to learn about anything
+                                steam related especially physics and maths. made this
+                                website as a way of showing love and support for the
+                                sudanese physics community.
+
+
+                                <br>
+                            <ul class="list-unstyled list-linline pt-3">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 28px;"><i
+                                            class="fab fa-github"></i></a>
+                                </li>
+
+                            </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--footer-->
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
-            <div class="row text-center text-md-left">
-                <!--Home-->
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">
-                        <a href="./" class="text-danger" style="text-decoration: none;">Mahjoub Taha Archive Website</a>
-                    </h5>
-                    <p>This website is a humble attempt to archive the work of Prof.Mahjoub Taha.
+            <h4 class="text-danger text-uppercase py-3">Mahjoub Taha Archive Website</h4>
 
-                    </p>
-                </div>
-                <!--Books-->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">
-                        <a href="./book.html" class="text-danger" style="text-decoration: none;">Books</a>
-                    </h5>
-                    <p>
-                        Links of the prof's papers and books.
-                    </p>
-                </div>
-                <!--Videos-->
-                <div class="col-md-3 col-lg-2 col-xl-2 ms-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">
-                        <a href="./video.html" class="text-danger" style="text-decoration: none;">Videos</a>
-                    </h5>
-                    <p>
-                        Links of of the prof's Youtube videos.
-                    </p>
-
-                </div>
-                <!--About-->
-                <div class="col-md-3 col-lg-2 col-xl-2 ms-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-danger">
-                        <a href="./about.html" class="text-danger" style="text-decoration: none;">About</a>
-                    </h5>
-                    <p>
-                        The archive idea is <a href="#" class="text-danger" style="text-decoration: none;">Mubark's</a>
-
-                        idea, And the website is <a href="#" class="text-danger"
-                            style="text-decoration: none;">Mine</a>.
-                        Know more about us.
-                    </p>
-
-                </div>
+            <div class="py-2 text-uppercase">
+                <p>This Website is dedicated to archive the work of
+                    the eminent sudanese physicist
+                    <span class="text-danger px-1">Prof.Mahjoub Taha.</span>
+                    in this website you can expect to find most of the books
+                    and videos of <span class="text-danger px-1">Prof.Mahjoub Taha.</span> the archiving is
+                    the idea of <span class="text-danger px-1">Mubark Abdallah.</span>
+                </p>
             </div>
+
+            <div class="text-center text-md-right">
+                <ul class="list-unstyled list-linline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                class="fab fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+
             <hr class="mb-4">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-8">
-                    <p>
-                        Copyright @2022 Made with love by by:
-                        <a href="#" style="text-decoration: none;">
-                            <strong class="text-danger">
-                                Miqdad
-                            </strong>
-                        </a>
-                    </p>
-                </div>
-                <div class="col-md-5 col-lg-4">
-                    <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-linline">
-                            <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
-                                        class="fab fa-facebook"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
-                                        class="fab fa-twitter"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
-                                        class="fab fa-github"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
-                                        class="fab fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
+            <p class="text-uppercase">
+                Copyright &copy; 2022 Made with love by:
+                <a href="#" style="text-decoration: none;">
+                    <strong class="text-danger px-2">
+                        Miqdad Greeb Allah
+                    </strong>
+                </a>
+            </p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
